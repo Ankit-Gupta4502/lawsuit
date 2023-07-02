@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+body{
+  font-family: "Inter", "Helvetica Neue", "Helvetica" !important;
+}
+$primary:#8C30F5;
+$secondary:#F1E4FF;
+$light:#F4F5F7;
+@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap/scss/_reboot.scss';
+@import "./Home/hero";
+@import "./Home/classes";
+a{
+  text-decoration: none;
+  color: $dark;
+  font-size: .9rem;
+}
